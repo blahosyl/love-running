@@ -363,7 +363,6 @@ hr {
   }
 }/*end of media query for larger or landscape phones
 
-
 /* media query: tablets and larger (769px and up) */
 @media screen and (min-width: 768px) {
   /* Header */
@@ -443,8 +442,6 @@ hr {
   max-width: 400px;
 }
 
-.join-button:hover
-
 }/* end of media query: tablets and larger (769px and up) */
 
 
@@ -480,5 +477,4 @@ hr {
   #benefits-mental {
     order: 3;
   }
-
 }/* end of media query: large screens (1200px and up) */
