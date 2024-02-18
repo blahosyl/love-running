@@ -226,6 +226,25 @@ hr {
   margin-bottom: 20px;
 }
 
+/* reasons image */
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    background: url("../images/reasons-image.webp") no-repeat top center / cover;
+    margin-bottom: 20px;
+    /* make the square into  circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/* make sure image is in the center of parent div */
+#benefits-image {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* footer */
 #social-networks {
   text-align: center;
