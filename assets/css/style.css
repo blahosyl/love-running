@@ -300,6 +300,26 @@ hr {
     width: 300px;
     right: 50px;
   }
+
+  /* reasons section */
+
+  #benefits-physical,
+  #benefits-mental {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #benefits-physical > div,
+  #benefits-mental > div {
+    width:75%;
+  }
+
+  /* put benefits-mental div on the right side, right-align text */
+  #benefits-mental > div {
+    align-self: end;
+    text-align:end;
+  }
 }/* end of media query: tablets and larger (769px and up) */
 
 
