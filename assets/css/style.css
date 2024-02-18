@@ -329,3 +329,15 @@ hr {
     border-bottom: 1px solid #3a3a3a;
   }
 }/* end of media query: laptops and desktops (992px and up) */
+
+/* large screens: make Reasons section in 3 columns with image in center */
+@media screen and (min-width: 1200px) {
+  #benefits {
+    display:flex;
+    flex-direction: row;
+  }
+  #benefits-mental {
+    order: 3;
+  }
+
+}/* end of media query: large screens (1200px and up) */
