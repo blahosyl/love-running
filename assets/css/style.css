@@ -115,7 +115,10 @@ header {
   width:100%;
   box-shadow: 0 2px 2px #3a3a3a;
   /*left &right shadow 0, top (doesn't matter)
-  and bottom shadow 2px*/, blur 2px, shadow colour 3a3a3a*/
+  and bottom shadow 2px, blur 2px, shadow colour 3a3a3a*/
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 header a {
@@ -133,9 +136,38 @@ header a {
 }
 
 .active {
-  border-bottom: 1px solid #3a3a3a; 
+  border-bottom: 1px solid #3a3a3a;
 }
 
+/* navbar styles with dropdown toggle */
+
+nav{
+  position:absolute; /* this removes previous styling, so we need to add it back in */
+  background-color: #ffffff;
+  width:100%;
+  padding-left: 1rem;
+  left: 0;
+  box-shadow: 0 2px 2px #3a3a3a;
+  /*left &right shadow 0, top (doesn't matter)
+  and bottom shadow 2px, blur 2px, shadow colour 3a3a3a */
+  display: none;
+  top:100%;
+}
+
+/* van toggle */
+#nav-toggle:checked ~ nav {
+  display:block
+}
+
+/* hide checkbox */
+#nav-toggle {
+  display: none;
+}
+
+/* make X bigger */
+.nav-toggle-label{
+  font-size: 2rem;
+}
 /* main content */
 main {
   background-color:lightblue;
