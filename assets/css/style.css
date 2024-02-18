@@ -145,7 +145,7 @@ nav{
   position:absolute; /* this removes previous styling, so we need to add it back in */
   background-color: #ffffff;
   width:100%;
-  padding: 1rem;
+  padding: 0 1rem;
   left: 0;
   box-shadow: 0 2px 2px #3a3a3a;
   /*left &right shadow 0, top (doesn't matter)
@@ -173,7 +173,7 @@ main {
   background-color:lightblue;
   /* make main element take up any surplus space so footer is pushed down */
   flex: 1 0 auto;
-  margin-top: 3.75rem; /*to account for extra padding of 1 rem for nav above */
+  margin-top: 47px;
 }
 
 /* footer */
